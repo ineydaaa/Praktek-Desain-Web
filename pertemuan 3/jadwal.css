@@ -1,0 +1,20 @@
+.judul{
+    text-align: center;
+}
+table, th, tr, td{
+    border: 1px solid;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: rgb(142, 167, 223);
+}
+tr:nth-child(even) {
+    background-color: #e7ac91;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+}

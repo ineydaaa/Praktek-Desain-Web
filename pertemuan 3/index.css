@@ -1,0 +1,25 @@
+.judul,
+.subjudul{
+    text-align: center;
+}
+table, th, tr, td{
+    border: 1px solid;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: rgb(151, 174, 238);
+}
+tr:nth-child(even) {
+    background-color: #91e7e7;
+}
+.Block{
+    background-color: rgb(228, 172, 147);
+    width: 100%;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+}

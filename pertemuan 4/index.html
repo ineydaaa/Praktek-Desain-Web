@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pertemuan 4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="/action_page.php">
+        <h2 class="tengah">Calon Pegawai Negeri Sipil 2024</h2>
+        <fieldset class="block">
+          <legend>FORMULIR PENDAFTARAN CPNS 2024</legend>
+          <label for="instansi">Nama Instansi :</label>
+          <input type="text" id="instansi" name="instansi"><br>
+          <label for="jabatan">Formasi Jabatan :</label>
+          <input list="jabatan" name="jabatan">
+          <datalist id="jabatan">
+            <option value="Kementerian Agama (Kemenag)">
+            <option value="Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud Ristek)">
+            <option value="Kementerian Kesehatan (Kemenkes)">
+            <option value="Kementerian Pertahanan (Kemenhan)">
+            <option value="Mahkamah Agung (MA)">
+            <option value="Kementerian Perhubungan (Kemenhub)">
+            <option value="Kementerian Sosial (Kemensos)">
+          </datalist>
+          <br>
+          <label for="myfile">Foto Diri 3x4 :</label>
+          <input type="file" id="myfile" name="myfile"><br>
+          <p>Lokasi Formasi :</p>
+          <input type="radio" id="Jawa" name="lokasi">
+            <label for="Jawa">Jawa</label><br>
+            <input type="radio" id="Sumatra" name="lokasi">
+            <label for="Sumatra">Sumatra</label><br>
+            <input type="radio" id="Kalimantan" name="lokasi">
+            <label for="Kalimantan">Kalimantan</label><br>
+            <input type="radio" id="Bali" name="lokasi">
+            <label for="Bali">Bali</label><br>
+            <input type="radio" id="Papua" name="lokasi">
+            <label for="Papua">Papua</label><br>
+            <input type="radio" id="Sulawesi" name="lokasi">
+            <label for="Sulawesi">Sulawesi</label><br>
+            <input type="radio" id="Maluku" name="lokasi">
+            <label for="Maluku">Maluku</label><br>
+            <input type="radio" id="Nusa Tenggara Timur" name="lokasi">
+            <label for="Nusa Tenggara Timur">Nusa Tenggara Timur</label><br>
+            <input type="radio" id="NTB" name="lokasi">
+            <label for="NTB">Nusa Tenggara Barat</label><br><br>
+          <label for="nama">Nama :</label>
+          <input type="text" id="nama" name="nama"><br>
+          <label for="NIK">NIK :</label>
+          <input type="text" id="NIK" name="NIK"><br>
+          <label for="alamat">Alamat Lengkap :</label>
+          <input type="text" id="alamat" name="alamat"><br>
+          <label for="birthday">Tanggal Lahir :</label>
+          <input type="date" id="birthday" name="birthday"> <br>
+          <label for="tempat">Tempat Lahir :</label>
+          <input type="text" id="tempat" name="tempat"><br>
+          <label for="Jk">Jenis Kelamin :</label>
+            <select id="Jk" name="Jk">
+            <option value="Perempuan">Wanita</option>
+            <option value="Laki-Laki">Pria</option>
+            </select>
+            <br>
+        <label for="nomor">No. Handphone :</label>
+        <input type="text" id="nomor" name="nomor"><br>
+        <label for="agama">Agama :</label>
+        <input type="text" id="agama" name="agama"><br>
+        <label for="sekolah">Nama PT/Sekolah :</label>
+        <input type="text" id="sekolah" name="sekolah"><br>
+        <label for="pendidikan">Pendidikan Terakhir :</label>
+        <input type="text" id="pendidikan" name="pendidikan"><br>
+        <label for="tahunlulus">Tahun Lulus Sekolah :</label>
+        <input type="text" id="tahunlulus" name="tahunlulus"><br>
+        <label for="ijazah">No. Ijazah :</label>
+        <input type="text" id="ijazah" name="ijazah"><br>
+        <label for="myfile">PDF Ijazah :</label>
+        <input type="file" id="myfile" name="myfile"><br>
+        <label for="myfile">PDF Kartu Tanda Penduduk :</label>
+        <input type="file" id="myfile" name="myfile"><br>
+        <br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Ulangi">
+        </fieldset>
+      </form>
+</body>
+</html>

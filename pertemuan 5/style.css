@@ -1,0 +1,51 @@
+h1{
+  text-align: center;
+}
+body {
+  background-color: rgb(216, 233, 243);
+}
+a.smooth{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 2em;
+  width: 10em;
+  border-radius: 1,5em;
+  color: #fff3;
+  background-color: mediumblue;
+  transition-property: background-color;
+  transition-duration: 0,3s;
+}
+a.smooth:hover, a.smooth:focus {
+  background-color: rgb(233, 129, 129);
+}
+.navbar{
+  background-color: rgb(183, 183, 216);
+  margin-left: 10px;
+}
+
+.navbar:hover{
+  background-color: red;
+  transition: 2s;
+  box-shadow: 10px,10px,blue;
+  border: 1px dashed;
+}
+
+.kotak{
+  background-color: red;
+  height: 100px;
+  width: 150px;
+  transition: width 2s, height 4s;
+  border-radius: 25px;
+  box-shadow: 10px,10px,10px, blue;
+}
+p{
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
+
+img:hover{
+  transform: scale(2)
+  translate(50px,30px)
+  ;
+}

@@ -1,0 +1,78 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 2fr auto auto;
+      grid-template-areas:
+        "bio projects sidebar"
+        "bio skills sidebar"
+        "bio contact sidebar";
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 1;
+
+    }
+
+    .bio {
+      grid-area: bio;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    .projects {
+      grid-area: projects;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .skills {
+      grid-area: skills;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .contact {
+      grid-area: contact;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sidebar {
+      grid-area: sidebar;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "bio"
+          "projects"
+          "skills"
+          "contact"
+          "sidebar";
+      }
+    }
